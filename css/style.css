@@ -1,0 +1,162 @@
+.wrapper {
+    background-color: #ececec;
+  }
+  
+  /* Header styles */
+  
+  .logo_text {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2196f3;
+  }
+  
+  .logo_sub_title {
+    color: #000000;
+  }
+  
+  .nav_link {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #212121;
+  }
+  
+  .nav_link:hover {
+    color: #2196f3;
+    cursor: pointer;
+  }
+  
+  .contact_link {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #757575;
+  }
+  
+  .contact_link:hover {
+    color: #2196f3;
+    cursor: pointer;
+  }
+
+    /* business section styles*/
+
+  .business {
+    background-color:#2f303a;
+  }
+
+  .business__title {
+    font-family: Roboto;
+    font-size: 44px;
+    color: #ffffff;
+  }
+
+  .business__button {
+    font-family: Roboto;
+    font-size: 16px;
+    width: 216px;
+    height: 50px;
+    background-color:#2196f3;
+    color: #ffffff;
+  }
+
+    /*goals styles*/
+
+  .goal_title {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #212121;
+  }
+
+  .goal_text {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #757575; 
+  }
+
+    /*our works section*/
+
+  .works_title {
+    font-family: Roboto;
+    font-size: 36px;
+    color: #212121;
+  }
+
+  .our_team_title {
+    font-family: Roboto;
+    font-size: 36px;
+    color: #212121;
+  }  
+
+  .team_title {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #212121;
+  }
+
+  .team_text {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #757575
+  }
+  
+  /*footer section*/
+
+ .footer {
+    background-color: #2F303A;
+    
+ }
+
+  .white {
+    color:#ffffff
+  }
+
+  .address_link {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+ /*portfolio section*/
+
+  .nav_link_btn {
+    cursor: pointer;
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 26px;
+    letter-spacing: 3%;
+    text-align: center;
+     color: #212121;
+    width: 103px;
+    height: 38px;
+    background-color: #F5F4FA;
+    border: none;
+  }
+
+ .nav_link_btn:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+ }
+
+ .cards_title {
+    font-family: Roboto;
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 36px;
+    letter-spacing: 6%;
+     color: #212121;
+ }
+
+ .cards_text {
+    font-family: Roboto;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 30px;
+    letter-spacing: 3%;
+     color:#757575
+ }
+ 
+ .cards_list {
+    
+ }
+
+  
