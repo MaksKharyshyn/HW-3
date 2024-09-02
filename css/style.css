@@ -15,12 +15,20 @@
 }
 
   .logo_text {
+    width: 145px;
+    height: 31px;
+    top: 24px;
+    left: 215px;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     color: #2196f3;
   }
   
+  .logo_text {
+    margin-top: 10px;
+  }
+
   .logo_sub_title {
     color: #000000;
   }
@@ -30,6 +38,10 @@
   }
 
   .nav_link {
+    width: 45px;
+    height: 16px;
+    top: 32px;
+    left: 453px;
     font-family: Roboto;
     font-size: 14px;
     color: #212121;
@@ -38,6 +50,10 @@
   .nav_link:hover {
     color: #2196f3;
     cursor: pointer;
+  }
+
+  .nav_link{
+    margin-right: 50px;
   }
 
   .address {
@@ -55,13 +71,25 @@
     cursor: pointer;
   }
 
+  .contact_link {
+    margin-right: 50px;
+  }
     /* business section styles*/
 
   .business {
     background-color:#2f303a;
   }
 
+  .business_side {
+    display: flex;
+    justify-content: center;
+  }
+
   .business__title {
+    width: 696px;
+    height: 120px;
+    top: 280px;
+    left: 452px;
     font-family: Roboto;
     font-size: 44px;
     color: #ffffff;
