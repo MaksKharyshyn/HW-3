@@ -1,9 +1,19 @@
-.wrapper {
+.container {
     background-color: #ececec;
+    width: 1200px;
+  }
+
+  .section {
+    padding: 94px 0;
   }
   
   /* Header styles */
   
+ .header {
+   display: flex;
+   
+}
+
   .logo_text {
     font-family: Raleway;
     font-size: 26px;
@@ -15,6 +25,10 @@
     color: #000000;
   }
   
+  .nav {
+    display: flex;
+  }
+
   .nav_link {
     font-family: Roboto;
     font-size: 14px;
@@ -24,6 +38,10 @@
   .nav_link:hover {
     color: #2196f3;
     cursor: pointer;
+  }
+
+  .address {
+    display: flex;
   }
   
   .contact_link {
@@ -60,10 +78,15 @@
 
     /*goals styles*/
 
+  .goal_list {
+    display: flex;
+  }
+
   .goal_title {
     font-family: Roboto;
     font-size: 14px;
     color: #212121;
+  
   }
 
   .goal_text {
@@ -154,9 +177,7 @@
     letter-spacing: 3%;
      color:#757575
  }
+
  
- .cards_list {
-    
- }
 
   
