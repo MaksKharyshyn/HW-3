@@ -103,11 +103,30 @@
     color: #212121;
   }
 
+  .works_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .works {
+    margin-right: 30px;
+  }
+
+  .works:last-child {
+    margin-right: 0px;
+  }
+
+  /*team section*/
+
   .our_team_title {
     font-family: Roboto;
     font-size: 36px;
     color: #212121;
   }  
+
+  .team_list {
+    display: flex;
+  }
 
   .team_title {
     font-family: Roboto;
