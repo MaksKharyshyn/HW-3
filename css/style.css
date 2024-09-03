@@ -1,6 +1,5 @@
 .container {
     background-color: #ececec;
-    width: 1200px;
   }
 
   .section {
@@ -23,9 +22,6 @@
     font-size: 26px;
     font-weight: 700;
     color: #2196f3;
-  }
-  
-  .logo_text {
     margin-top: 10px;
   }
 
@@ -45,15 +41,12 @@
     font-family: Roboto;
     font-size: 14px;
     color: #212121;
+    margin-right: 50px;
   }
   
   .nav_link:hover {
     color: #2196f3;
     cursor: pointer;
-  }
-
-  .nav_link{
-    margin-right: 50px;
   }
 
   .address {
@@ -64,25 +57,22 @@
     font-family: Roboto;
     font-size: 14px;
     color: #757575;
+    margin-right: 50px;
   }
   
   .contact_link:hover {
     color: #2196f3;
     cursor: pointer;
   }
-
-  .contact_link {
-    margin-right: 50px;
-  }
-    /* business section styles*/
+    
+  /* business section styles*/
 
   .business {
     background-color:#2f303a;
   }
 
-  .business_side {
-    display: flex;
-    justify-content: center;
+  .title_cont {
+    text-align: center;
   }
 
   .business__title {
@@ -93,6 +83,11 @@
     font-family: Roboto;
     font-size: 44px;
     color: #ffffff;
+  }
+
+  .btn_block {
+    display: flex;
+    justify-content: center;
   }
 
   .business__button {
