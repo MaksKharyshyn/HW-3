@@ -73,6 +73,8 @@
 
   .title_cont {
     text-align: center;
+    padding: 70px 425px 260px 452px;
+    padding-bottom: 50px;
   }
 
   .business__title {
@@ -109,7 +111,10 @@
     font-family: Roboto;
     font-size: 14px;
     color: #212121;
-  
+  }
+
+  .goal_item {
+    margin-left: 30px;
   }
 
   .goal_text {
@@ -124,6 +129,7 @@
     font-family: Roboto;
     font-size: 36px;
     color: #212121;
+    padding-left: 617px;
   }
 
   .works_wrapper {
@@ -141,10 +147,15 @@
 
   /*team section*/
 
+  .our_team_section {
+    padding: 186px 215px 94px 215px
+  }
+
   .our_team_title {
     font-family: Roboto;
     font-size: 36px;
     color: #212121;
+    padding-left: 450px;
   }  
 
   .team_list {
@@ -161,6 +172,10 @@
     font-family: Roboto;
     font-size: 16px;
     color: #757575
+  }
+
+  .team_item {
+    margin-left: 20px;
   }
   
   /*footer section*/
