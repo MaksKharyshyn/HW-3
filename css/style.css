@@ -10,7 +10,6 @@
   
  .header {
    display: flex;
-   
 }
 
   .logo_text {
@@ -148,7 +147,8 @@
   /*team section*/
 
   .our_team_section {
-    padding: 186px 215px 94px 215px
+    padding: 186px 215px 94px 215px;
+    background-color: #F5F4FA;
   }
 
   .our_team_title {
