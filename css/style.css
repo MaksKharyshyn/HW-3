@@ -10,18 +10,15 @@
   
  .header {
    display: flex;
+   justify-content: space-around;
 }
 
   .logo_text {
-    width: 145px;
-    height: 31px;
-    top: 24px;
-    left: 215px;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     color: #2196f3;
-    margin-top: 10px;
+    margin: 0;
   }
 
   .logo_sub_title {
@@ -33,14 +30,10 @@
   }
 
   .nav_link {
-    width: 45px;
-    height: 16px;
-    top: 32px;
-    left: 453px;
     font-family: Roboto;
     font-size: 14px;
     color: #212121;
-    margin-right: 50px;
+    margin: 0;
   }
   
   .nav_link:hover {
@@ -58,10 +51,14 @@
     color: #757575;
     margin-right: 50px;
   }
-  
+
   .contact_link:hover {
     color: #2196f3;
     cursor: pointer;
+  }
+
+  .contact_link:last-child {
+    margin-right: 0px;
   }
     
   /* business section styles*/
@@ -72,15 +69,10 @@
 
   .title_cont {
     text-align: center;
-    padding: 70px 425px 260px 452px;
-    padding-bottom: 50px;
   }
 
   .business__title {
-    width: 696px;
-    height: 120px;
-    top: 280px;
-    left: 452px;
+    margin: 0;
     font-family: Roboto;
     font-size: 44px;
     color: #ffffff;
@@ -104,6 +96,7 @@
 
   .goal_list {
     display: flex;
+    padding: 0 215px;
   }
 
   .goal_title {
@@ -125,10 +118,10 @@
     /*our works section*/
 
   .works_title {
+    text-align: center;
     font-family: Roboto;
     font-size: 36px;
     color: #212121;
-    padding-left: 617px;
   }
 
   .works_wrapper {
@@ -155,7 +148,7 @@
     font-family: Roboto;
     font-size: 36px;
     color: #212121;
-    padding-left: 450px;
+    text-align: center;
   }  
 
   .team_list {
@@ -166,33 +159,44 @@
     font-family: Roboto;
     font-size: 16px;
     color: #212121;
+    text-align: center;
   }
 
   .team_text {
     font-family: Roboto;
     font-size: 16px;
-    color: #757575
+    color: #757575;
+    text-align: center;
   }
 
   .team_item {
     margin-left: 20px;
+    background-color: #ffffff;
   }
   
   /*footer section*/
 
  .footer {
-    background-color: #2F303A;
-    
+    background-color: #2F303A; 
+    padding: 60px 0 60px 215px;
  }
 
   .white {
     color:#ffffff
   }
 
+  .address_list {
+  padding: 0;
+  }
+
   .address_link {
     font-family: Roboto;
     font-size: 14px;
     color: #ffffff;
+  }
+
+  .address_item {
+    padding-bottom: 9px;  
   }
 
  /*portfolio section*/
@@ -212,11 +216,11 @@
     border: none;
   }
 
- .nav_link_btn:hover {
+  .nav_link_btn:hover {
     background-color: #2196F3;
     color: #FFFFFF;
  }
-
+ 
  .cards_title {
     font-family: Roboto;
      font-size: 18px;
