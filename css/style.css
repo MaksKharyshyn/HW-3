@@ -29,11 +29,14 @@
     display: flex;
   }
 
+  .nav_list {
+    display: flex;
+  }
+
   .nav_link {
     font-family: Roboto;
     font-size: 14px;
     color: #212121;
-    margin: 0;
   }
   
   .nav_link:hover {
@@ -59,6 +62,20 @@
 
   .contact_link:last-child {
     margin-right: 0px;
+  }
+
+  .nav_item {
+    padding-left: 30px;
+  }
+
+  .portfolio_cards {
+    max-width: 1200px;
+}
+ 
+  .cards_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
     
   /* business section styles*/
