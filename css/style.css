@@ -83,16 +83,6 @@
   .contact_link:last-child {
     margin-right: 0px;
   }
-
-  .portfolio_cards {
-    max-width: 1200px;
-}
- 
-  .cards_list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
     
   /* business section styles*/
 
